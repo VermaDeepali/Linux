@@ -1,0 +1,15 @@
+# System Admin Command
+
+1. last --> This cmd will show the user who have logged into the comp today and the terminals they used for that.
+
+2. df --> to check the hard disk space of your system
+
+3. free --> This cmd is used to check free RAM on ones system
+
+4. free -m --> it is used to convert data into Megabytes to check free RAM space
+
+5. du --> This is used to check size of a dir/file
+
+6. ps --> give the process running as a user
+
+7. kill ps --> it will kill the process that would be running 

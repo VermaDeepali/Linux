@@ -1,0 +1,46 @@
+# Basic command
+
+1. cd --> used to change directory
+
+2. cat --> used to concatenate files 
+
+3. touch --> change file access and modification times
+
+4. cal --> show calendar
+
+5. chdir --> used to change current working directory
+
+6. chmod --> change access permission of a file
+
+7. cp --> to copy content of a file
+
+8. date --> show date and time
+
+9. dir --> list the contents of a directory
+
+10. grep --> search input of a given type
+
+11. help --> help for built-in cmd
+
+12. history --> shows cmd used previously
+
+13. ls --> show list of a current directory
+
+14. ls -l --> shows list as well as permission that list
+
+15. man --> shows manual page
+
+16. mkdir --> used to make directory
+
+17. mv --> moves file or directories.
+
+18. rm --> remove files and directories
+
+19. vim --> a text-editor
+
+20. whoami --> gives the current user name
+
+
+
+
+
