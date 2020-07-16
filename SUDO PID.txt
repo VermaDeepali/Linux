@@ -1,0 +1,76 @@
+SUDO--> Super User DO
+
+/bin --> any user can run command
+/sbin -->only root user has privilege to run command
+
+***********************************************************************************************************************************************************************
+
+To make any user superuser:
+1. Go to vim /etc/sudoers
+2. Add username just below root and add all the same content as root
+for example: aakash ALL=(ALL) ALL
+3. Add passwd to username
+4. Now you're a superuser
+5. To run any command as root just apply sudo in the beginning of that username
+
+Example: sudo useradd aakashi
+--It will create a aakash username
+
+
+We can also make a user superuser by using wheel command
+
+==>useradd -G wheel username
+tada now you've created a superuser
+now hit : sudo useradd username 
+--it will create that particular username
+
+==>usermod -G wheel username
+--this is use to modify user permission
+
+**************************************************************************************************************************************************************************
+
+PROCESS MANAGEMENT
+
+Program in execution is called process.
+
+i.This is used in Linux to check process of scertain programs like whether that is in running state or stop or 
+in any other state.
+ii.It is also use to kill a certain program if it's not working or is not in use.
+iii.We cannot run same program twice in a kernel
+
+==> ps -aux
+It is used to check how many process are running in your linux system
+But it provide static output
+Here ps- process, a-all, u -user, x-any
+
+
+==>top
+It will show the real time data of your system
+
+
+==>kill -l
+It will show all the kill signal
+
+==>kill -9 PID
+IT will completely kill your process 
+
+==>kill -15 PID
+It will normally kill your process means first first it'll kill child of process then parent
+
+==>pstree
+IT will launch the whole system tree
+
+==>dmidecode | less
+This will tell you the whole BIOS information
+
+==>pgrep firefox
+It will give you process id PID of firefox
+
+==>pkill PID
+It will kill that program
+
+
+==>lsblk (list block)
+
+
+********************************************************************THE END**********************************************************************************
